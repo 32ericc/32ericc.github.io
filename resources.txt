@@ -1,0 +1,35 @@
+Whether it be web design or different web elements,
+I found the following links to be the most useful in the
+development of this website.
+
+a great resource for implementing modern web elements:
+    -> https://www.youtube.com/@Hyperplexed
+
+css tips:
+    -> https://www.youtube.com/@KevinPowell
+
+website inspos:
+    -> https://gabriel-cuallado.com/about/
+    -> http://www.digitaldesigner.cool/
+    -> https://www.admilk.co/
+
+infinite marquee:
+    -> https://ryanmulligan.dev/blog/css-marquee/
+
+importing 3d models:
+    -> https://www.section.io/engineering-education/how-to-insert-3d-objects-into-a-webpage-using-html-and-css/
+
+bento grid hover effect:
+    -> https://www.youtube.com/watch?v=htGfnF1zN4g
+
+text decoder effect:
+    -> https://youtu.be/7_VfE4k7h1s
+
+exploding text:
+    -> https://www.youtube.com/watch?v=owpaafxvkjU
+
+social icons (and all other icons):
+    -> https://fontawesome.com/
+
+free images:
+    -> https://unsplash.com/

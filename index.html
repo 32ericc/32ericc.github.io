@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/projects.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+
+    <!--import 3d model-->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"
+    ></script>
+
+    <!--cdn file for scrambled text effect-->
+    <script src="
+https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js
+"></script>
+
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>About Me</title>
+  </head>
+  <body>
+    <!--loading screen-->
+    <div class="loading-screen">
+      <div class="loader"></div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+
+      <div class="marquee-container">
+        <div class="about-marquee">
+          <p class="about-marquee-content">
+            // ABOUT // ABOUT //
+          </p>
+        </div>
+        <div class="about-marquee" aria-hidden="true">
+          <p class="about-marquee-content" aria-hidden="true">
+             // ABOUT // ABOUT // 
+          </p>
+        </div>
+        <div class="projects-marquee">// PROJECTS // PROJECTS // </div>
+        <div class="contact-marquee">// CONTACT // CONTACT // </div>
+      </div>
+
+      <section id="home">
+        <p id="copyright">&copy; Eric Chang | 2023</p>
+        <div id="3d-container">
+          <!-- 3D object -->
+          <div id="aSide">
+            <!-- import 3d model -->
+            <model-viewer
+              src="./assets/name-logo.gltf"
+              alt="title"
+              ar
+              ios-src="./assets/name-logo.gltf"
+            >
+              <!-- camera controls can be added above-->
+            </model-viewer>
+          </div>
+        </div>
+
+        <div class="marquee">
+          <ul class="marquee-content">
+            <li>🏃‍♂️running🏃‍♂️</li>
+            <li>🍳cooking🍳</li>
+            <li>🎧music🎧</li>
+            <li>👨‍💻coding👨‍💻</li>
+            <li>🎮video-games🎮</li>
+          </ul>
+
+          <ul class="marquee-content" aria-hidden="true">
+            <li>🏃‍♂️running🏃‍♂️</li>
+            <li>🍳cooking🍳</li>
+            <li>🎧music🎧</li>
+            <li>👨‍💻coding👨‍💻</li>
+            <li>🎮video-games🎮</li>
+          </ul>
+        </div>
+
+        <span class="clock"></span>
+        
+        <!--description-->
+        <div class="dcontainer">
+          <p class="desc">
+            Electrical Engineering Student at
+            <span class="school">Texas A&M</span>
+          </p>
+        </div>
+      </section>
+
+      <section id="about" onload="reanimate()">
+        <h1>About</h1>
+        <p class="data">
+          Hi, I'm <span class="change-color">Eric</span> — a student 👨‍🎓 based in Austin, Texas, currently
+          pursuing a BS in <span class="highlight">Electrical Engineering at Texas A&M University (TAMU)👍.
+          </span><br></br>Up until last year, I had zero programming experience, but I have
+          since become a self-taught programmer, driven by the fact that I have
+          an affinity for the complexities and depth of specializations in the
+          world of tech (I also had nothing better to do 😅). To me, this
+          website marks my first notable project, and I am proud to say that I
+          managed to build it by sourcing free videos and articles from the web
+          🌐.<br></br>Outside of tech-related stuff, I am extremely passionate about
+          perpetual learning 📚, discovering new music 🎶, maintaining a fitness
+          routine ⛹️‍♂️, and delving into some form of art 🎨. Photography 📸 is
+          also a newfound interest for me.<br></br>I don't necessarily identify myself
+          with a specific field; instead, I am in the process of exploring
+          different options and seeing where it leads me. The journey has its
+          obstacles, but I am excited to see the <span class="change-color">opportunities that await 🛣️</span>.
+        </p>
+
+        <img src="./images/family.jpg" class="card" />
+      </section>
+      
+      <section id="projects">
+        <h1>Projects</h1>
+        <div id="bento-container">
+          <div class="box item1">
+            <div class="box-border"></div>
+            <div class="box-content">
+              <img src="./images/static-website-preview.png" class="website-preview"/><a href="http://youtube.com"></a>
+              <div class="overlay"></div>
+            </div>
+          </div>
+          <div class="box grid-col-span-3 item2">
+            <div class="box-border"></div>
+            <div class="box-content"></div>
+          </div>
+          <div class="box grid-col-row-span-2 item3">
+            <div class="box-border"></div>
+            <div class="box-content"></div>
+          </div>
+          <div class="box grid-col-span-3 item4">
+            <div class="box-border"></div>
+            <div class="box-content"></div>
+          </div>
+          <div class="box item5">
+            <div class="box-border"></div>
+            <div class="box-content"></div>
+          </div>
+          <div class="box grid-col-span-2 item6">
+            <div class="box-border"></div>
+            <div class="box-content"></div>
+          </div>
+          <div class="box grid-col-span-4 item7">
+            <div class="box-border"></div>
+            <div class="box-content"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <span id="clock2" class="clock"></span>
+        
+
+        <ul class="social-icons">
+          <li class="icon"><a href="https://www.linkedin.com/in/eric-chang-atx/ " target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="icon"><a href="https://github.com/32ericc" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li class="icon"><a href="https://www.instagram.com/e.chang04/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li class="icon"><a href="https://discordapp.com/users/940325624394952784" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+        </ul>
+      
+        <div id="text">
+          <div class="line">
+            <p id="first-name" class="word fancy">Eric</p>
+            <p id="last-name" class="word fancy">Chang</p>
+          </div>
+          <div class="line">
+            <p class="word">Student</p>
+            <p class="word">in</p>
+          </div>
+          <div class="line">
+            <p class="word">Engineering</p>
+          </div>
+          <div class="line">
+            <a
+             id="some-link" 
+             class="word fancy"
+             href="mailto:32ericc@gmail.com"
+             target="_blank"
+             >
+             @32ericc
+            </a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <div class="inner-cursor"></div>
+    <div class="outer-cursor"></div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/cursor.js"></script>
+    <script src="./js/clock.js"></script>
+  </body>
+</html>
