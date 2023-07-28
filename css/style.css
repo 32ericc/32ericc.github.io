@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Mono", monospace;
+  cursor: none;
+  user-select: none;
+}
+
+@font-face {
+  font-family: "guti";
+  src: url("/assets/Guti-Semibold.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 3vh;
+}
+
+body {
+  display: flex;
+  background-color: #212a3e;
+}
+
+.loading-screen {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(30, 30, 30);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+.loader {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader::before {
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.8em;
+  content: "[---]"; /* Initial frame */
+  animation: loading-anim 1s infinite steps(1);
+}
+
+@keyframes loading-anim {
+  0% {
+    content: "[---]";
+  }
+  25% {
+    content: "[=--]";
+  }
+  50% {
+    content: "[-=-]";
+  }
+  75% {
+    content: "[--=]";
+  }
+}
+
+nav {
+  position: fixed;
+  top: 7%;
+  left: 3.5%;
+  z-index: 2;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  position: relative;
+  color: #ffffff;
+}
+
+nav li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #3193da;
+  transition: 0.4s;
+  z-index: -1;
+}
+
+nav li a:hover::before {
+  height: 100%;
+}
+
+.container {
+  transition: transform 0.75s ease;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 400%;
+  height: 100vh;
+  perspective: 1000px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  flex: none;
+}
+
+section::before {
+  background-attachment: fixed;
+}
+
+.about-marquee-content,
+.projects-marquee,
+.contact-marquee {
+  font-family: "guti";
+  font-size: 2.7em;
+  color: #b4f95f;
+  transform: rotate(-90deg);
+  transform-origin: right;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.about-marquee-content {
+  position: absolute;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  top: 10%;
+  right: 0;
+}
+
+.projects-marquee {
+  position: absolute;
+  white-space: nowrap;
+  top: -2%;
+  right: -100%;
+}
+
+.contact-marquee {
+  position: absolute;
+  white-space: nowrap;
+  top: 2%;
+  right: -200%;
+}
+
+.marquee-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #f1f6f5;
+  font-size: clamp(14px, 1vw, 24px);
+}
+
+h1 {
+  position: absolute;
+  display: inline-block;
+  color: transparent;
+  opacity: 25%;
+}
+
+.inner-cursor {
+  position: fixed;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  transform: translate(-50%, -50%);
+  background-color: #36a9fc;
+  /* border: 3px solid #36a9fc; */
+  mix-blend-mode: screen;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: width 0.5s, height 0.5s;
+  z-index: 9999;
+}
+
+.inner-cursor:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: screen;
+}
+
+.inner-cursor.grow {
+  width: 20px;
+  height: 20px;
+  transition: width 0.5s, height 0.5s;
+  z-index: 9999;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,139 @@
+/* contact page */
+#contact {
+  left: 75%;
+}
+
+#contact::before {
+  content: "";
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3d3131;
+  /* background-image: url(../images/); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7);
+  z-index: -1;
+}
+
+#clock2 {
+  position: absolute;
+  top: 82%;
+  right: -280%;
+  font-size: 1.2em;
+}
+
+.word {
+  color: #faf3f0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 7vw;
+  margin: 0rem;
+  text-transform: uppercase;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line a {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+#text {
+  position: absolute;
+}
+
+#text:has(.fancy:hover) .word:not(.fancy:hover) {
+  opacity: 0.2;
+}
+
+.fancy > .letter {
+  display: inline-block;
+  font-family: "Space Grotesk", sans-serif;
+  transition: transform 350ms ease;
+}
+
+.fancy:hover > .letter {
+  transition-duration: 800ms;
+}
+
+.fancy:hover > .letter:nth-child(1) {
+  transform: translate(-20%, -20%) rotate(-8deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(2) {
+  transform: translate(-25%, 15%) rotate(5deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(3) {
+  transform: translate(-5%, -15%) rotate(10deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(4) {
+  transform: translate(10%, 10%) rotate(-20deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(5) {
+  transform: translate(30%, 20%) rotate(8deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(6) {
+  transform: translate(70%, 10%) rotate(10deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(7) {
+  transform: translate(40%, 30%) rotate(30deg);
+  color: plum;
+}
+
+.fancy:hover > .letter:nth-child(8) {
+  transform: translate(40%, -10%) rotate(-20deg);
+  color: plum;
+}
+
+#first-name:hover {
+  color: #3c486b;
+}
+
+#last-name:hover {
+  color: #f9d949;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: -295%;
+  bottom: 5%;
+  width: 2em;
+  height: 8em;
+}
+
+.icon {
+  width: 100%;
+  height: 25%;
+}
+
+.social-icons li.icon i {
+  font-size: 130%;
+  justify-content: center;
+}
+
+.social-icons li {
+  position: relative;
+  list-style-type: none;
+}
+
+.social-icons li a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
