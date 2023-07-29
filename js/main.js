@@ -5,14 +5,14 @@ const animatedDesc = document.querySelector(".dcontainer");
 function loadingComplete() {
   setTimeout(function () {
     loadingScreen.style.opacity = "0"; // Apply fade-out effect
-  }, 2000);
+  }, 4000);
 
   setTimeout(function () {
     loadingScreen.style.display = "none";
 
     // animate after loading screen hidden
     animationElements.style.display = "block";
-  }, 3000);
+  }, 6000);
 }
 
 window.onload = function () {
