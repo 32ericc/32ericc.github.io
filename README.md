@@ -8,15 +8,16 @@ You can launch the website by heading to [this link](https://32ericc.github.io/)
 
 ## Progress 👨‍💻
 You may be wondering why most of my commits were made all at once. Well, prior to the project, I had a very small understanding of github and was in a time 
-crunch, so I decided to document my progress in notepad. Shown below are the days that I have worked on the project and what I was able to accomplish on that 
-given day.
+crunch, so I decided to document my progress in notepad. Shown below are the days that I have worked on the project and what I was able to accomplish on those 
+days.
 
 7/11/2023
-	-> made working horizontal scrolling
-	-> navigation bar
+	* made working horizontal scrolling
+	* navigation bar
+
 7/12/2023
-	-> infinite marquee
-		-> https://ryanmulligan.dev/blog/css-marquee/
+	* infinite marquee
+		* https://ryanmulligan.dev/blog/css-marquee/
 7/15/2023
 	-> redesign, added 3d title
 		-> https://www.section.io/engineering-education/how-to-insert-3d-objects-into-a-webpage-using-html-and-css/
