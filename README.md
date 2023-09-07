@@ -3,6 +3,9 @@
 ## A website that displays a little about myself, made from everything I've gathered in the span of a month.
 ![](https://github.com/32ericc/32ericc.github.io/blob/main/homepage-screenshot.png "Home page snapshot")
 
+## Overview 📋
+
+
 ## Launch 🚀
 You can launch the website by heading to [this link](https://32ericc.github.io/) or cloning the repository to your local machine and starting a local server.
 
