@@ -7,7 +7,10 @@
 You can launch the website by heading to [this link](https://32ericc.github.io/) or cloning the repository to your local machine and starting a local server.
 
 ## Progress 👨‍💻
-Progress (because I didn't know how to commit changes to github):
+You may be wondering why most of my commits were made all at once. Well, prior to the project, I had a very small understanding of github and was in a time 
+crunch, so I decided to document my progress in notepad. Shown below are the days that I have worked on the project and what I was able to accomplish on that 
+given day.
+
 7/11/2023
 	-> made working horizontal scrolling
 	-> navigation bar
