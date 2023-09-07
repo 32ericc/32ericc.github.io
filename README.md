@@ -2,8 +2,11 @@
 
 ## A website that displays a little about myself, made from everything I've gathered in the span of a month.
 ![](https://github.com/32ericc/32ericc.github.io/blob/main/homepage-screenshot.png "Home page snapshot")
-You can launch the website by cloning the repository or with the link: https://32ericc.github.io/. Made suitable for newer devices and wider screens (mobile devices not compatible).
 
+## Launch 🚀
+You can launch the website by heading to [this link](https://32ericc.github.io/) or cloning the repository to your local machine and starting a local server.
+
+## Progress 👨‍💻
 Progress (because I didn't know how to commit changes to github):
 7/11/2023
 	-> made working horizontal scrolling
@@ -41,5 +44,5 @@ Progress (because I didn't know how to commit changes to github):
 	-> created website preloader
 	-> published website
 
-License:
+## License 📄
 Copyright ©2023 Eric Chang. All rights reserved.
