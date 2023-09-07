@@ -7,7 +7,8 @@
 
 
 ## Launch 🚀
-You can launch the website by heading to [this link](https://32ericc.github.io/) or cloning the repository to your local machine and starting a local server.
+The website is not made suitable for older devices as well as mobile devices. In the future I plan on making another site to fit those needs. For now, you can launch
+the website by heading to [this link](https://32ericc.github.io/) or cloning the repository to your local machine and starting a local server there.
 
 ## Progress 👨‍💻
 You may be wondering why most of my commits were made all at once. Well, prior to the project, I had a very small understanding of github and was in a time 
