@@ -1,8 +1,10 @@
 # 32ericc.github.io
 
 # About Me Website
-About: 
-A website made from everything I've gathered this month. You can launch the website by cloning the repository or with the link: https://32ericc.github.io/. Made suitable for newer devices and wider screens (mobile devices not compatible).
+
+## A website that displays a little about myself, made from everything I've gathered this month.
+
+You can launch the website by cloning the repository or with the link: https://32ericc.github.io/. Made suitable for newer devices and wider screens (mobile devices not compatible).
 
 Progress (because I didn't know how to commit changes to github):
 7/11/2023
