@@ -1,7 +1,7 @@
 # About Me Website
 
 ## A website that displays a little about myself, made from everything I've gathered in the span of a month.
-![Home page](/repository/homepage-screenshot.png "Home page snapshot")
+![](https://github.com/32ericc/32ericc.github.io/blob/main/homepage-screenshot.png "Home page snapshot")
 You can launch the website by cloning the repository or with the link: https://32ericc.github.io/. Made suitable for newer devices and wider screens (mobile devices not compatible).
 
 Progress (because I didn't know how to commit changes to github):
