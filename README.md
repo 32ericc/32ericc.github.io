@@ -12,7 +12,7 @@ build the website. Some notable features include: horizontal scrolling, custom c
 The website is not made suitable for older devices as well as mobile devices. In the future I plan on making another site to fit those needs. For now, you can launch
 the website by heading to [this link](https://32ericc.github.io/) or cloning the repository to your local machine and starting a local server there.
 
-## Progress 👨‍💻
+## Timeline 👨‍💻
 You may be wondering why most of my commits were made all at once. Well, prior to the project, I had a very small understanding of github and was in a time 
 crunch, so I decided to document my progress in notepad instead. Shown below are the days that I have worked on the project and what I was able to accomplish on those 
 days.
