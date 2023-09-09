@@ -4,7 +4,9 @@
 ![](https://github.com/32ericc/32ericc.github.io/blob/main/homepage-screenshot.png "Home page snapshot")
 
 ## Overview 📋
-
+This website marks what I would consider my very first web development project. It exemplifies my strengths in frontend development, semantic HTML and CSS, and familiarizes 
+me with the intricacies of backend development. I used many publicly available [resources](https://github.com/32ericc/32ericc.github.io/blob/main/resources.txt) to help me 
+build the website. Some notable features include: horizontal scrolling, custom cursor, animated text, and a digital clock.
 
 ## Launch 🚀
 The website is not made suitable for older devices as well as mobile devices. In the future I plan on making another site to fit those needs. For now, you can launch
