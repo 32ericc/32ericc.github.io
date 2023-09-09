@@ -14,21 +14,21 @@ the website by heading to [this link](https://32ericc.github.io/) or cloning the
 
 ## Timeline 👨‍💻
 You may be wondering why most of my commits were made all at once. Well, prior to the project, I had a very small understanding of github and was in a time 
-crunch, so I decided to document my progress in notepad instead. Shown below are the days that I have worked on the project and what I was able to accomplish on those 
-days.
+crunch, so I decided to document my progress in notepad instead. Shown below are the days that I have worked on the project and a short description of what 
+I was able to accomplish on those days.
 
 7/11/2023
-- made working horizontal scrolling
-- navigation bar
+- implemented functional horizontal scrolling behavior
+- added nav bar with animation on hover
 
 7/12/2023
 - infinite marquee
 	- https://ryanmulligan.dev/blog/css-marquee/
 
 7/15/2023
-- redesign entire layout, added 3d title
+- redesigned entire layout, designed a 3d model of name in Blender and added it to webiste with model viewer
 	- https://www.section.io/engineering-education/how-to-insert-3d-objects-into-a-webpage-using-html-and-css/
-- added digital clock
+- added digital clock for local time
 
 7/16/2023
 - implemented scroll behavior
@@ -36,14 +36,15 @@ days.
 
 7/18/2023
 - parallax effect on scroll
-- bento grid on projects page
+	- pages slide over each other 
+- bento grid on projects page to hold all projects
 - box hover effect
 	- https://www.youtube.com/watch?v=htGfnF1zN4g
 
 7/19/2023
 - wrote "about me" desc
-- changed layout -> reduced number of pages
-- struggled w styling bg img 
+- changed layout to reduced number of pages
+- struggled with and eventually fixed styling the bg img 
 - scramble/decoder effect on text
 	- https://youtu.be/7_VfE4k7h1s
 
@@ -52,7 +53,7 @@ days.
 - added all social links
 - exploding text
 	- https://www.youtube.com/watch?v=owpaafxvkjU
-- finalize about page
+- finalized about page
 
 7/28/2023
 - finalized projects page
